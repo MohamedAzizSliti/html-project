@@ -1,0 +1,138 @@
+
+.backWelcome
+{   
+    background-image: url('https://wallpaperstock.net/wallpapers/thumbs1/46089wide.jpg');
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.messageWelcome h1 {
+    color: rgb(0, 255, 13);
+    font-family: verdana;
+    font-size: 300%;
+    background-color: none;
+
+
+  }
+  .messageWelcome p {
+    color: rgb(255, 255, 255);
+    font-family: courier;
+    font-size: 160%;
+    background-color: rgb(140, 184, 82);
+padding: 5px 5px 10px 10px;
+  }
+.messageWelcome{    
+    display: flex;
+    flex-direction: column;
+    background-color: none;
+    width: auto;
+    height: auto;
+    align-items: center;
+}
+
+.articalB{
+    display: flex;
+    margin: 25px;
+    border:whitesmoke solid;
+    background-color:rgb(134, 214, 134);
+    width: 25%;
+}
+.articalB img{
+    width: 100px;
+    height: auto;
+    border:white solid;
+}
+.articals{
+    display: flex;
+
+
+}
+.detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 5px;    
+
+}
+
+.detail h3{
+    color:rgb(4, 117, 38);
+
+}
+.detail p{
+    color:whitesmoke;
+
+}
+.see{
+    font-size: 30px;
+    float: right;
+    margin-right: 20px;
+
+
+}
+.see a{
+    color:rgb(26, 68, 28);
+
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: auto;
+    margin: 20px;
+    text-align: center;
+    font-family: arial;
+    background-color: cornsilk;
+    opacity: 0.8;
+
+  }
+  
+  .price {
+    color: grey;
+    font-size: 20px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  @media only screen and (max-width: 768px) {
+    .messageWelcome h1 {
+  font-size: 200%;
+  margin: 10px;
+
+      }
+      .messageWelcome p {
+
+        font-size: 100%;
+        margin: 5px;
+
+      }
+      .backWelcome
+{   
+    height: 300px;
+
+
+}
+.articals{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.card{
+    width: 200px;
+    height: auto;
+}
+}

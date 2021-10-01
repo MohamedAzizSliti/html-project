@@ -1,0 +1,153 @@
+*{
+    margin: 0%;
+}
+.search-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+ input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  
+  .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+.search-container button:hover {
+    background: #ccc;
+  }
+ .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 22%;
+    margin: 20px;
+    text-align: center;
+    font-family: arial;
+    background-color: cornsilk;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 20px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+ /*  .articalB{
+    display: flex;
+    margin: 25px;
+    border:whitesmoke solid;
+    background-color:rgb(134, 214, 134);
+    width: 20%;
+}*/
+ .articalB img{
+    width: 100px;
+    height: auto;
+    border:white solid;
+ 
+}
+ .articals{
+    display: flex;
+
+    flex-wrap: wrap;
+    width: 100%;
+
+} /*
+.detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 5px;    
+
+}
+
+.detail h3{
+    color:rgb(4, 117, 38);
+
+}
+.detail p{
+    color:whitesmoke;
+
+}
+.see{
+    font-size: 30px;
+    float: right;
+    margin-right: 20px;
+
+
+}
+.see a{
+    color:rgb(26, 68, 28);
+
+}
+ */
+ @media only screen and (max-width: 768px) {
+    .messageWelcome h1 {
+  font-size: 200%;
+
+      }
+      .messageWelcome p {
+
+        font-size: 100%;
+        margin: 5px;
+      }
+      .backWelcome
+{   
+    height: 300px;
+
+
+}
+.articals{
+    display: flex;
+
+
+}
+.card{
+    width: 200px;
+    height: auto;
+}
+}
+.pagination {
+    display: flex;
+    justify-content:center;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}

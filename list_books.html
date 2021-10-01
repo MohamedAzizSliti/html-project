@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style/style1.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <script  src="//code.jquery.com/jquery-1.12.0.min.js">
+    </script> 
+    <script> 
+    $(function(){
+      $(".AdminBar").load("navBarAdmin.html"); 
+    });
+    </script> 
+    <title>List of Books</title>
+</head>
+<body background="/image/bib.jpg">
+    
+    
+    <div class="AdminBar">
+
+    </div>
+
+
+        <div class="tableAdmin">
+
+            <h1 class="title">List of Books</h1>
+            <div class="add"> 
+                <button class="btn-add" >ADD BOOK</button>
+            </div>
+            
+        <table >
+            <thead>
+
+                <tr>
+                    <th>
+                        Name
+                    </th>
+                    <th>
+                        Narrator
+                    </th>
+                    <th>
+                        Price
+                    </th>
+                    <th class="buttons">
+                        #
+                    </th>
+                </tr>
+            </thead>
+            <tbody id='BookData'>
+                <tr>
+                    <td>JavaScript tutorial in arabic</td>
+                    <td>Ahmed hassan</td>
+                    <td>20Dt</td>
+                    <td class="buttons"><button class="update-button">Update</button><button class="delete-button">Delete</button></td>
+                </tr>
+                <tr>
+                    <td>HTML&CSS for Beginner</td>
+                    <td>Marwen Ricky</td>
+                    <td>10D</td>
+                    <td class="buttons"><button class="update-button">Update</button><button class="delete-button">Delete</button></td>
+                </tr>
+                <tr>
+                    <td> Flutter book </td>
+                    <td>Mohamed chaarabi</td>
+                    <td>8dt</td>
+                    <td class="buttons"><button class="update-button">Update</button><button class="delete-button">Delete</button></td>
+                </tr>
+                <tr>
+                    <td>JavaScript tutorial in arabic</td>
+                    <td>Ahmed hassan</td>
+                    <td>20Dt</td>
+                    <td class="buttons"><button class="update-button">Update</button><button class="delete-button">Delete</button></td>
+                </tr>
+                <tr>
+                    <td>HTML&CSS for Beginner</td>
+                    <td>Marwen Ricky</td>
+                    <td>10D</td>
+                    <td class="buttons"><button class="update-button">Update</button><button class="delete-button">Delete</button></td>
+                </tr>
+                <tr>
+                    <td> Flutter book </td>
+                    <td>Mohamed chaarabi</td>
+                    <td>8dt</td>
+                    <td class="buttons"><button class="update-button">Update</button><button class="delete-button">Delete</button></td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+</body>
+</html> 
